@@ -8,8 +8,9 @@ The dataset used in this project contains information about the sales of product
 - Pandas
 - Scikit-learn
 - Matplotlib
-- Predicting Quantities Sold
-- To predict the quantities sold, a Random Forest Regressor model was trained on the dataset. The model was trained on features such as date, price, ratings and product ID. After training the model, new columns were created with the predicted quantities sold.
+
+## Predicting Quantities Sold
+To predict the quantities sold, a Random Forest Regressor model was trained on the dataset. The model was trained on features such as date, price, ratings and product ID. After training the model, new columns were created with the predicted quantities sold.
 
 ## Discount Optimization
 After predicting the quantities sold, the next step was to apply a simulation that optimizes the best discount the company can choose based on dates and different discounts applied. The optimization uses price elasticity to determine the best discount strategy. Price elasticity of demand is the ratio of the percentage change in quantity demanded of a product to the percentage change in price. The simulation iterates over different discount strategies and selects the one that results in the highest profit.
