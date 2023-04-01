@@ -2,7 +2,7 @@
 In this Jupyter Notebook, we will explore a dataset that contains information about customer behavior and their purchasing habits. We will use the LightGBM classifier to predict whether a customer is likely to make a purchase or not. To handle the issue of imbalanced data, we will use the SMOTE algorithm, and for hyperparameter tuning, we will use BayesSearchCV.
 
 ## Dataset
-The dataset used for this project can be found in the "data" folder. It contains information about customer behavior, including demographic information, website usage, and purchase history. The goal of this project is to predict whether a customer is likely to make a purchase based on this information.
+The dataset used for this project contains information about customer behavior, including demographic information, website usage, and purchase history. The goal of this project is to predict whether a customer is likely to make a purchase based on this information.
 
 ## Tools Used
 The following tools were used in this project:
